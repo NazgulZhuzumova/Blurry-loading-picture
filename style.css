@@ -1,0 +1,28 @@
+@import url('https://fonts.google.com/family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg {
+    background: url('https://images.unsplash.com/photo-1653013351311-a92a8fb93c1f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=1400') no-repeat center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px)
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
